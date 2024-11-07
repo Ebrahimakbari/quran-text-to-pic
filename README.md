@@ -1,4 +1,3 @@
-```markdown
 # Quran Text to Image Visualization
 
 This project processes Quranic text and converts it into a grayscale image by transforming each character to its ASCII value, creating a matrix from these values, and normalizing them for visual representation. The program reads a Quran text file where each line is in the format `SurahNumber|VerseNumber|VerseText`, filters the verse text, and visualizes it in an image.
@@ -15,7 +14,6 @@ To run this project, you need the following packages installed:
 
 ```bash
 pip install numpy pillow arabic-reshaper python-bidi
-```
 
 ## Project Structure
 
