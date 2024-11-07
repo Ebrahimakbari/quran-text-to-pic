@@ -12,9 +12,9 @@ This project processes Quranic text and converts it into a grayscale image by tr
 
 To run this project, you need the following packages installed:
 
-```bash
+```python
 pip install numpy pillow arabic-reshaper python-bidi
-
+```
 ## Project Structure
 
 - **process_quran_text**: Reads and reshapes the text for correct Arabic display.
@@ -29,7 +29,6 @@ pip install numpy pillow arabic-reshaper python-bidi
    ```
    1|1|بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
    1|2|ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
-   ...
    ```
 
 2. **Run the Script**: Use the following command to generate the visualization:
